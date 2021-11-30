@@ -1,0 +1,9 @@
+"Id";"Référence";"Boîtier";"Quantité";"Désignation";"Fournisseur et réf";
+1;"PMOD_JB1,PMOD_JA1";"PinHeader_2x06_P2.54mm_Horizontal_pmod";2;"Conn_02x06_Top_Bottom";;;
+2;"JTAG_IN0,JTAG_OUT0,JTAG_IN1,J1";"PinHeader_2x10_P2.54mm_Vertical";4;"Conn_02x10_Odd_Even";;;
+3;"M2,M1";"MountingHole_3.7mm";2;"MountingHole_3.7mm";;;
+4;"D1,D0";"LED_0603_1608Metric";2;"LED";;;
+5;"U1";"SSOP-56_7.5x18.5mm_P0.635mm";1;"SN74CBTLV16292DL";;;
+6;"R1,R0";"R_0603_1608Metric";2;"68";;;
+7;"C1";"C_0603_1608Metric";1;"10uf";;;
+8;"C0";"C_0603_1608Metric";1;"100nf";;;

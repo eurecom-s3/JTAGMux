@@ -1,13 +1,12 @@
-EESchema Schematic File Version 5
-LIBS:JTAGMux_1.0-cache
-EELAYER 29 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "JTAG Mux "
+Date "2019-07-30"
+Rev "v1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -20,32 +19,32 @@ U 1 1 5CA9C082
 P 9120 2530
 F 0 "PMOD_JB1" H 9170 2947 50  0000 C CNN
 F 1 "Conn_02x06_Top_Bottom" H 9170 2856 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 9120 2530 50  0001 C CNN
+F 2 "pmod_foortprint:PinHeader_2x06_P2.54mm_Horizontal_pmod" H 9120 2530 50  0001 C CNN
 F 3 "https://reference.digilentinc.com/_media/reference/pmod/pmod-interface-specification-1_2_0.pdf" H 9120 2530 50  0001 C CNN
 	1    9120 2530
 	1    0    0    -1  
 $EndComp
-Text GLabel 9420 2330 2    50   Input ~ 6
+Text GLabel 9420 2330 2    50   Input ~ 10
 EXT3
-Text GLabel 9420 2430 2    50   Input ~ 6
+Text GLabel 9420 2430 2    50   Input ~ 10
 EXT4
-Text GLabel 9420 2530 2    50   Input ~ 6
+Text GLabel 9420 2530 2    50   Input ~ 10
 EXT5
-Text GLabel 9420 2630 2    50   Input ~ 6
+Text GLabel 9420 2630 2    50   Input ~ 10
 EXT6
-Text GLabel 9420 2730 2    50   Input ~ 6
+Text GLabel 9420 2730 2    50   Input ~ 10
 GND
-Text GLabel 9420 2830 2    50   Input ~ 6
+Text GLabel 9420 2830 2    50   Input ~ 10
 3V3
-Text GLabel 8920 2430 0    50   Input ~ 6
+Text GLabel 8920 2430 0    50   Input ~ 10
 EXT0_IRQ
-Text GLabel 8920 2530 0    50   Input ~ 6
+Text GLabel 8920 2530 0    50   Input ~ 10
 EXT1_IRQACK
-Text GLabel 8920 2630 0    50   Input ~ 6
+Text GLabel 8920 2630 0    50   Input ~ 10
 EXT2
-Text GLabel 8920 2730 0    50   Input ~ 6
+Text GLabel 8920 2730 0    50   Input ~ 10
 GND
-Text GLabel 8920 2830 0    50   Input ~ 6
+Text GLabel 8920 2830 0    50   Input ~ 10
 3V3
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even JTAG_OUT0
@@ -58,27 +57,27 @@ F 3 "~" H 7330 2440 50  0001 C CNN
 	1    7330 2440
 	1    0    0    -1  
 $EndComp
-Text GLabel 7130 2040 0    50   Input ~ 6
+Text GLabel 7130 2040 0    50   Input ~ 10
 VTREF_out
-Text GLabel 7130 2140 0    50   Input ~ 6
+Text GLabel 7130 2140 0    50   Input ~ 10
 nTRST_out
-Text GLabel 7130 2240 0    50   Input ~ 6
+Text GLabel 7130 2240 0    50   Input ~ 10
 TDI_out
-Text GLabel 7130 2340 0    50   Input ~ 6
+Text GLabel 7130 2340 0    50   Input ~ 10
 TMS_out
-Text GLabel 7130 2440 0    50   Input ~ 6
+Text GLabel 7130 2440 0    50   Input ~ 10
 TCK_out
-Text GLabel 7130 2540 0    50   Input ~ 6
+Text GLabel 7130 2540 0    50   Input ~ 10
 RTCK_out
-Text GLabel 7130 2640 0    50   Input ~ 6
+Text GLabel 7130 2640 0    50   Input ~ 10
 TDO_out
-Text GLabel 7130 2740 0    50   Input ~ 6
+Text GLabel 7130 2740 0    50   Input ~ 10
 nSRST_out
-Text GLabel 7130 2840 0    50   Input ~ 6
+Text GLabel 7130 2840 0    50   Input ~ 10
 DBRQ_out
-Text GLabel 7130 2940 0    50   Input ~ 6
+Text GLabel 7130 2940 0    50   Input ~ 10
 DBACK_out
-Text GLabel 7630 2040 2    50   Input ~ 6
+Text GLabel 7630 2040 2    50   Input ~ 10
 VSUPPLY_out
 Wire Wire Line
 	7630 2140 7630 2240
@@ -103,7 +102,7 @@ Wire Wire Line
 Connection ~ 7630 2840
 Wire Wire Line
 	7630 2840 7630 2940
-Text GLabel 7630 2540 2    50   Input ~ 6
+Text GLabel 7630 2540 2    50   Input ~ 10
 GND
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even JTAG_IN0
@@ -116,27 +115,27 @@ F 3 "~" H 7340 3780 50  0001 C CNN
 	1    7340 3780
 	1    0    0    -1  
 $EndComp
-Text GLabel 7140 3380 0    50   Input ~ 6
+Text GLabel 7140 3380 0    50   Input ~ 10
 VTREF_in0
-Text GLabel 7140 3480 0    50   Input ~ 6
+Text GLabel 7140 3480 0    50   Input ~ 10
 nTRST_in0
-Text GLabel 7140 3580 0    50   Input ~ 6
+Text GLabel 7140 3580 0    50   Input ~ 10
 TDI_in0
-Text GLabel 7140 3680 0    50   Input ~ 6
+Text GLabel 7140 3680 0    50   Input ~ 10
 TMS_in0
-Text GLabel 7140 3780 0    50   Input ~ 6
+Text GLabel 7140 3780 0    50   Input ~ 10
 TCK_in0
-Text GLabel 7140 3880 0    50   Input ~ 6
+Text GLabel 7140 3880 0    50   Input ~ 10
 RTCK_in0
-Text GLabel 7140 3980 0    50   Input ~ 6
+Text GLabel 7140 3980 0    50   Input ~ 10
 TDO_in0
-Text GLabel 7140 4080 0    50   Input ~ 6
+Text GLabel 7140 4080 0    50   Input ~ 10
 nSRST_in0
-Text GLabel 7140 4180 0    50   Input ~ 6
+Text GLabel 7140 4180 0    50   Input ~ 10
 DBRQ_in0
-Text GLabel 7140 4280 0    50   Input ~ 6
+Text GLabel 7140 4280 0    50   Input ~ 10
 DBACK_in0
-Text GLabel 7640 3380 2    50   Input ~ 6
+Text GLabel 7640 3380 2    50   Input ~ 10
 VSUPPLY_in0
 Wire Wire Line
 	7640 3480 7640 3580
@@ -161,7 +160,7 @@ Wire Wire Line
 Connection ~ 7640 4180
 Wire Wire Line
 	7640 4180 7640 4280
-Text GLabel 7640 3880 2    50   Input ~ 6
+Text GLabel 7640 3880 2    50   Input ~ 10
 GND
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even JTAG_IN1
@@ -174,7 +173,7 @@ F 3 "~" H 7350 5120 50  0001 C CNN
 	1    7350 5120
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 4720 2    50   Input ~ 6
+Text GLabel 7650 4720 2    50   Input ~ 10
 VSUPPLY_in1
 Wire Wire Line
 	7650 4820 7650 4920
@@ -190,7 +189,7 @@ Wire Wire Line
 Connection ~ 7650 5220
 Wire Wire Line
 	7650 5220 7650 5320
-Text GLabel 7650 5220 2    50   Input ~ 6
+Text GLabel 7650 5220 2    50   Input ~ 10
 GND
 Wire Wire Line
 	7650 5320 7650 5420
@@ -201,7 +200,7 @@ Wire Wire Line
 Connection ~ 7650 5520
 Wire Wire Line
 	7650 5520 7650 5620
-Text GLabel 8920 2330 0    50   Input ~ 6
+Text GLabel 8920 2330 0    50   Input ~ 10
 Select_input
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom PMOD_JA1
@@ -209,32 +208,32 @@ U 1 1 5CB1B671
 P 9120 3440
 F 0 "PMOD_JA1" H 9170 3857 50  0000 C CNN
 F 1 "Conn_02x06_Top_Bottom" H 9170 3766 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 9120 3440 50  0001 C CNN
+F 2 "pmod_foortprint:PinHeader_2x06_P2.54mm_Horizontal_pmod" H 9120 3440 50  0001 C CNN
 F 3 "~" H 9120 3440 50  0001 C CNN
 	1    9120 3440
 	1    0    0    -1  
 $EndComp
-Text GLabel 9420 3240 2    50   Input ~ 6
+Text GLabel 9420 3240 2    50   Input ~ 10
 DBACK_in0
-Text GLabel 9420 3340 2    50   Input ~ 6
+Text GLabel 9420 3340 2    50   Input ~ 10
 DBRQ_in0
-Text GLabel 9420 3540 2    50   Input ~ 6
+Text GLabel 9420 3540 2    50   Input ~ 10
 nTRST_in0
-Text GLabel 9420 3640 2    50   Input ~ 6
+Text GLabel 9420 3640 2    50   Input ~ 10
 GND
-Text GLabel 9420 3740 2    50   Input ~ 6
+Text GLabel 9420 3740 2    50   Input ~ 10
 3V3
-Text GLabel 8920 3340 0    50   Input ~ 6
+Text GLabel 8920 3340 0    50   Input ~ 10
 TMS_in0
-Text GLabel 8920 3440 0    50   Input ~ 6
+Text GLabel 8920 3440 0    50   Input ~ 10
 TCK_in0
-Text GLabel 8920 3540 0    50   Input ~ 6
+Text GLabel 8920 3540 0    50   Input ~ 10
 TDO_in0
-Text GLabel 8920 3640 0    50   Input ~ 6
+Text GLabel 8920 3640 0    50   Input ~ 10
 GND
-Text GLabel 8920 3740 0    50   Input ~ 6
+Text GLabel 8920 3740 0    50   Input ~ 10
 3V3
-Text GLabel 8920 3240 0    50   Input ~ 6
+Text GLabel 8920 3240 0    50   Input ~ 10
 TDI_in0
 NoConn ~ 9420 3440
 $Comp
@@ -262,21 +261,21 @@ NoConn ~ 2310 4010
 NoConn ~ 2310 4210
 NoConn ~ 2310 4410
 NoConn ~ 2310 4610
-Text GLabel 2310 2010 0    50   Input ~ 6
+Text GLabel 2310 2010 0    50   Input ~ 10
 VTREF_out
-Text GLabel 2310 2410 0    50   Input ~ 6
+Text GLabel 2310 2410 0    50   Input ~ 10
 nTRST_out
-Text GLabel 2310 2710 0    50   Input ~ 6
+Text GLabel 2310 2710 0    50   Input ~ 10
 TDI_out
-Text GLabel 2310 3610 0    50   Input ~ 6
+Text GLabel 2310 3610 0    50   Input ~ 10
 TDO_out
-Text GLabel 2310 3910 0    50   Input ~ 6
+Text GLabel 2310 3910 0    50   Input ~ 10
 nSRST_out
-Text GLabel 2310 4110 0    50   Input ~ 6
+Text GLabel 2310 4110 0    50   Input ~ 10
 DBRQ_out
-Text GLabel 2310 4310 0    50   Input ~ 6
+Text GLabel 2310 4310 0    50   Input ~ 10
 DBACK_out
-Text GLabel 2310 1910 0    50   Input ~ 6
+Text GLabel 2310 1910 0    50   Input ~ 10
 Select_input
 $Comp
 L Device:C C1
@@ -307,87 +306,87 @@ Wire Wire Line
 Connection ~ 1260 3860
 Wire Wire Line
 	1260 3860 1070 3860
-Text GLabel 2310 2610 0    50   Input ~ 6
+Text GLabel 2310 2610 0    50   Input ~ 10
 GND
-Text GLabel 2310 3710 0    50   Input ~ 6
+Text GLabel 2310 3710 0    50   Input ~ 10
 GND
-Text GLabel 4510 2610 2    50   Input ~ 6
+Text GLabel 4510 2610 2    50   Input ~ 10
 GND
-Text GLabel 4510 3710 2    50   Input ~ 6
+Text GLabel 4510 3710 2    50   Input ~ 10
 GND
-Text GLabel 4510 2110 2    50   Input ~ 6
+Text GLabel 4510 2110 2    50   Input ~ 10
 VTREF_in0
-Text GLabel 4510 2510 2    50   Input ~ 6
+Text GLabel 4510 2510 2    50   Input ~ 10
 nTRST_in0
-Text GLabel 4510 2810 2    50   Input ~ 6
+Text GLabel 4510 2810 2    50   Input ~ 10
 TDI_in0
-Text GLabel 4510 3010 2    50   Input ~ 6
+Text GLabel 4510 3010 2    50   Input ~ 10
 TMS_in0
-Text GLabel 4510 3210 2    50   Input ~ 6
+Text GLabel 4510 3210 2    50   Input ~ 10
 TCK_in0
-Text GLabel 4510 3410 2    50   Input ~ 6
+Text GLabel 4510 3410 2    50   Input ~ 10
 RTCK_in0
-Text GLabel 4510 3610 2    50   Input ~ 6
+Text GLabel 4510 3610 2    50   Input ~ 10
 TDO_in0
-Text GLabel 4510 3910 2    50   Input ~ 6
+Text GLabel 4510 3910 2    50   Input ~ 10
 nSRST_in0
-Text GLabel 4510 4110 2    50   Input ~ 6
+Text GLabel 4510 4110 2    50   Input ~ 10
 DBRQ_in0
-Text GLabel 4510 4310 2    50   Input ~ 6
+Text GLabel 4510 4310 2    50   Input ~ 10
 DBACK_in0
-Text GLabel 2310 3310 0    50   Input ~ 6
+Text GLabel 2310 3310 0    50   Input ~ 10
 RTCK_out
-Text GLabel 2310 3110 0    50   Input ~ 6
+Text GLabel 2310 3110 0    50   Input ~ 10
 TCK_out
-Text GLabel 2310 2910 0    50   Input ~ 6
+Text GLabel 2310 2910 0    50   Input ~ 10
 TMS_out
-Text GLabel 2310 2210 0    50   Input ~ 6
+Text GLabel 2310 2210 0    50   Input ~ 10
 VSUPPLY_out
-Text GLabel 2110 4510 0    50   Input ~ 6
+Text GLabel 2110 4510 0    50   Input ~ 10
 3V3
-Text GLabel 4510 2310 2    50   Input ~ 6
+Text GLabel 4510 2310 2    50   Input ~ 10
 VSUPPLY_in0
-Text GLabel 7150 5620 0    50   Input ~ 6
+Text GLabel 7150 5620 0    50   Input ~ 10
 DBACK_in1
-Text GLabel 7150 5520 0    50   Input ~ 6
+Text GLabel 7150 5520 0    50   Input ~ 10
 DBRQ_in1
-Text GLabel 7150 5420 0    50   Input ~ 6
+Text GLabel 7150 5420 0    50   Input ~ 10
 nSRST_in1
-Text GLabel 7150 5320 0    50   Input ~ 6
+Text GLabel 7150 5320 0    50   Input ~ 10
 TDO_in1
-Text GLabel 7150 5220 0    50   Input ~ 6
+Text GLabel 7150 5220 0    50   Input ~ 10
 RTCK_in1
-Text GLabel 7150 5120 0    50   Input ~ 6
+Text GLabel 7150 5120 0    50   Input ~ 10
 TCK_in1
-Text GLabel 7150 5020 0    50   Input ~ 6
+Text GLabel 7150 5020 0    50   Input ~ 10
 TMS_in1
-Text GLabel 7150 4920 0    50   Input ~ 6
+Text GLabel 7150 4920 0    50   Input ~ 10
 TDI_in1
-Text GLabel 7150 4820 0    50   Input ~ 6
+Text GLabel 7150 4820 0    50   Input ~ 10
 nTRST_in1
-Text GLabel 7150 4720 0    50   Input ~ 6
+Text GLabel 7150 4720 0    50   Input ~ 10
 VTREF_in1
-Text GLabel 4510 4410 2    50   Input ~ 6
+Text GLabel 4510 4410 2    50   Input ~ 10
 DBACK_in1
-Text GLabel 4510 4210 2    50   Input ~ 6
+Text GLabel 4510 4210 2    50   Input ~ 10
 DBRQ_in1
-Text GLabel 4510 4010 2    50   Input ~ 6
+Text GLabel 4510 4010 2    50   Input ~ 10
 nSRST_in1
-Text GLabel 4510 3810 2    50   Input ~ 6
+Text GLabel 4510 3810 2    50   Input ~ 10
 TDO_in1
-Text GLabel 4510 3510 2    50   Input ~ 6
+Text GLabel 4510 3510 2    50   Input ~ 10
 RTCK_in1
-Text GLabel 4510 3310 2    50   Input ~ 6
+Text GLabel 4510 3310 2    50   Input ~ 10
 TCK_in1
-Text GLabel 4510 3110 2    50   Input ~ 6
+Text GLabel 4510 3110 2    50   Input ~ 10
 TMS_in1
-Text GLabel 4510 2910 2    50   Input ~ 6
+Text GLabel 4510 2910 2    50   Input ~ 10
 TDI_in1
-Text GLabel 4510 2710 2    50   Input ~ 6
+Text GLabel 4510 2710 2    50   Input ~ 10
 nTRST_in1
-Text GLabel 4510 2210 2    50   Input ~ 6
+Text GLabel 4510 2210 2    50   Input ~ 10
 VTREF_in1
-Text GLabel 4510 2410 2    50   Input ~ 6
+Text GLabel 4510 2410 2    50   Input ~ 10
 VSUPPLY_in1
 Wire Wire Line
 	4510 4510 5250 4510
@@ -404,45 +403,45 @@ F 3 "~" H 9120 5130 50  0001 C CNN
 	1    9120 5130
 	1    0    0    -1  
 $EndComp
-Text GLabel 9420 4730 2    50   Input ~ 6
+Text GLabel 9420 4730 2    50   Input ~ 10
 3V3
-Text GLabel 8920 5630 0    50   Input ~ 6
+Text GLabel 8920 5630 0    50   Input ~ 10
 VTREF_in0
-Text GLabel 8920 5530 0    50   Input ~ 6
+Text GLabel 8920 5530 0    50   Input ~ 10
 RTCK_in0
-Text GLabel 8920 5430 0    50   Input ~ 6
+Text GLabel 8920 5430 0    50   Input ~ 10
 nSRST_in0
-Text GLabel 8920 5330 0    50   Input ~ 6
+Text GLabel 8920 5330 0    50   Input ~ 10
 GND
-Text GLabel 8920 5230 0    50   Input ~ 6
+Text GLabel 8920 5230 0    50   Input ~ 10
 GND
-Text GLabel 8920 5130 0    50   Input ~ 6
+Text GLabel 8920 5130 0    50   Input ~ 10
 GND
-Text GLabel 8920 5030 0    50   Input ~ 6
+Text GLabel 8920 5030 0    50   Input ~ 10
 GND
-Text GLabel 8920 4930 0    50   Input ~ 6
+Text GLabel 8920 4930 0    50   Input ~ 10
 GND
-Text GLabel 8920 4830 0    50   Input ~ 6
+Text GLabel 8920 4830 0    50   Input ~ 10
 In_Sel
-Text GLabel 8920 4730 0    50   Input ~ 6
+Text GLabel 8920 4730 0    50   Input ~ 10
 3V3
-Text GLabel 9420 4830 2    50   Input ~ 6
+Text GLabel 9420 4830 2    50   Input ~ 10
 In_Sel
-Text GLabel 9420 4930 2    50   Input ~ 6
+Text GLabel 9420 4930 2    50   Input ~ 10
 GND
-Text GLabel 9420 5030 2    50   Input ~ 6
+Text GLabel 9420 5030 2    50   Input ~ 10
 EXT0_IRQ
-Text GLabel 9420 5130 2    50   Input ~ 6
+Text GLabel 9420 5130 2    50   Input ~ 10
 EXT1_IRQACK
-Text GLabel 9420 5230 2    50   Input ~ 6
+Text GLabel 9420 5230 2    50   Input ~ 10
 EXT2
-Text GLabel 9420 5330 2    50   Input ~ 6
+Text GLabel 9420 5330 2    50   Input ~ 10
 EXT3
-Text GLabel 9420 5430 2    50   Input ~ 6
+Text GLabel 9420 5430 2    50   Input ~ 10
 EXT4
-Text GLabel 9420 5530 2    50   Input ~ 6
+Text GLabel 9420 5530 2    50   Input ~ 10
 EXT5
-Text GLabel 9420 5630 2    50   Input ~ 6
+Text GLabel 9420 5630 2    50   Input ~ 10
 EXT6
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -468,7 +467,7 @@ F 3 "" H 1470 3710 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  3510 1070 3510
-Text GLabel 950  3510 0    50   Input ~ 6
+Text GLabel 950  3510 0    50   Input ~ 10
 3V3
 Connection ~ 1300 3510
 Wire Wire Line
@@ -494,7 +493,7 @@ F 3 "~" H 4990 5470 50  0001 C CNN
 	1    4990 5470
 	1    0    0    -1  
 $EndComp
-Text GLabel 4810 5470 3    50   Input ~ 6
+Text GLabel 4810 5470 3    50   Input ~ 10
 GND
 $Comp
 L Device:LED D1

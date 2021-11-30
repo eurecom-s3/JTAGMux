@@ -1,14 +1,15 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.0-165-g615c49315)*
-G04 #@! TF.CreationDate,2019-04-12T15:14:10+02:00*
-G04 #@! TF.ProjectId,JTAGMux_1.0,4a544147-4d75-4785-9f31-2e302e6b6963,rev?*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.10*
+G04 #@! TF.CreationDate,2021-11-30T15:42:49+01:00*
+G04 #@! TF.ProjectId,JTAGMux_1.0,4a544147-4d75-4785-9f31-2e302e6b6963,v1.0.1*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.0-165-g615c49315)) date 2019-04-12 15:14:10*
+G04 Created by KiCad (PCBNEW 5.1.10) date 2021-11-30 15:42:49*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
 M02*
