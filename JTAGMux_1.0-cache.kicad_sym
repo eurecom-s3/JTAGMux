@@ -1473,7 +1473,7 @@
 			)
 		)
 	)
-	(symbol "JTAGMux_1.0-rescue_SN74CBTLV16292DL-aurel_libs"
+	(symbol "SN74CBTLV16292DL"
 		(pin_names
 			(offset 0.254)
 		)
@@ -1488,7 +1488,7 @@
 				)
 			)
 		)
-		(property "Value" "JTAGMux_1.0-rescue_SN74CBTLV16292DL-aurel_libs"
+		(property "Value" "SN74CBTLV16292DL"
 			(at 27.94 7.62 0)
 			(effects
 				(font
@@ -1532,7 +1532,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAGMux_1.0-rescue_SN74CBTLV16292DL-aurel_libs_1_0"
+		(symbol "SN74CBTLV16292DL_1_0"
 			(polyline
 				(pts
 					(xy 7.62 -73.66) (xy 48.26 -73.66)
