@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name JTAGMux_1.0-rescue)(type Legacy)(uri ${KIPRJMOD}/JTAGMux_1.0-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "JTAGMux_1.0-cache")(type "KiCad")(uri "${KIPRJMOD}/JTAGMux_1.0-cache.kicad_sym")(options "")(descr ""))
 )
